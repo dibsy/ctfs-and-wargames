@@ -22,7 +22,7 @@ prev_password='X'
 
 #formdata = {'username':'fill ut u','submit':'Check existence'}
 i = 0
-while(True):
+while(len(password)<32):
 	
 	if cur_password != prev_password:
 		prev_password = cur_password
